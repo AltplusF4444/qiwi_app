@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Qiwi pay</string>
+    <string name="nomer">nomer</string>
+    <string name="token">token</string>
+    <string name="Токен">Токен</string>
+    <string name="Логин">Логин</string>
+    <string name="Войти">Войти</string>
+    <string name="qiwi_logo">qiwi_logo</string>
+    <string name="Назад2">Назад2</string>
+    <string name="Обновить1">Обновить1</string>
+    <string name="Обновить">Обновить</string>
+    <string name="todo">TODO</string>
+    <string name="Купить">Купить</string>
+    <string name="Продать">Продать</string>
+    <string name="Назад">Назад</string>
+    <string name="Оплатить">Оплатить</string>
+    <string name="Цена">Цена</string>
+</resources>

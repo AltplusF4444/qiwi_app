@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivitySeller">
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine2"
+        android:layout_width="247dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="16dp"
+        android:autofillHints=""
+        android:backgroundTint="#FF5722"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/Цена"
+        android:inputType="textMultiLine"
+        android:textColor="#FF5722"
+        android:textColorHint="#FF5722"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextMultiLine3"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine3"
+        android:layout_width="247dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="112dp"
+        android:autofillHints=""
+        android:backgroundTint="#FF5722"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/Токен"
+        android:inputType="textMultiLine"
+        android:textColor="#FF5722"
+        android:textColorHint="#FF5722"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="340dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/Оплатить"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="55dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="349dp"
+        android:clickable="true"
+        android:contentDescription="@string/Назад"
+        android:onClick="clickChoice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bek"
+        tools:ignore="ImageContrastCheck,UsingOnClickInXml"
+        android:focusable="true" />
+</androidx.constraintlayout.widget.ConstraintLayout>
